@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-#container {
-  background-color: lightgray;
-  padding: 1px;
-}
-
 #tag {
   background-color: red;
   width: 200px;
