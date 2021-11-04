@@ -9,6 +9,7 @@
   border-style: solid;
   border-width: 0.1px;
   border-radius: 15px;
+  margin: 0 auto;
 }
 
 p {
@@ -35,4 +36,23 @@ p {
   margin-top: 3px;
 }
 
+#change-name-section {
+  display: flex;
+  place-content: center;
+  margin: 10px;
+}
+
+label, input {
+  margin-right: 5px;
+}
+
+#change-color-section {
+  display: flex;
+  place-content: center;
+  margin: 10px;
+}
+
+select {
+  margin-right: 5px;
+}
 
