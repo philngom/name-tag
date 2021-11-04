@@ -52,3 +52,7 @@ label, input {
   margin: 10px;
 }
 
+select {
+  margin-right: 5px;
+}
+

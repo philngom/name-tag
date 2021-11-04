@@ -11,7 +11,7 @@
   <div id="change-name-section">
     <label for="">What is your name?</label>
     <input type="text" id="input-name">
-    <button id="change">Change</button>
+    <button id="change">Update Name</button>
   </div>
   <div id="tag">
     <p class="hello">HELLO</p>
@@ -21,8 +21,17 @@
     </div>
   </div>
   <div id="change-color-section">
-    <button class='green'>Green</button>
-    <button class='blue'>Blue</button>
+    <label for="colors">Select a color:</label>
+    <select name="select-color" id="select-color">
+      <option value=""></option>
+      <option value="green">Green</option>
+      <option value="blue">blue</option>
+      <option value="purple">purple</option>
+      <option value="grey">grey</option>
+      <option value="brown">brown</option>
+      <option value="black">black</option>
+    </select>
+    <button id="update-color-button">Update color</button>
   </div>
   <script src="app.js"></script>
 </body>
